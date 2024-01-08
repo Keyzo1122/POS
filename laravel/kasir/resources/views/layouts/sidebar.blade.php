@@ -3,7 +3,7 @@
     <a href="index3.html" class="brand-link">
         <img src="{{ asset('AdminLTE-3.2.0/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">{{ config('app.name') }}</span>
     </a>
 
     <!-- Sidebar -->
@@ -26,18 +26,18 @@
                 <!-- Add icons to the links using the .nav-icon class
                 with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route('dashboard') }}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Dashboard</p>
                     </a>
                     
                     <li class="nav-header">MASTER</li>
                     <li>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('kategori.index') }}" class="nav-link">
                             <i class="fa fa-cube" aria-hidden="true"></i>
                             <p>Kategori</p>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('produk.index') }}" class="nav-link">
                             <i class="fa fa-code" aria-hidden="true"></i>
                             <p>Produk</p>
                         </a>
