@@ -30,7 +30,7 @@
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Dashboard</p>
                     </a>
-                    
+
                     <li class="nav-header">MASTER</li>
                     <li>
                         <a href="{{ route('kategori.index') }}" class="nav-link">
@@ -41,16 +41,16 @@
                             <i class="fa fa-code" aria-hidden="true"></i>
                             <p>Produk</p>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('member.index') }}" class="nav-link">
                             <i class="fa fa-users" aria-hidden="true"></i>
                             <p>Member</p>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('supplier.index') }}" class="nav-link">
                             <i class="fa fa-archive" aria-hidden="true"></i>
                             <p>Supplier</p>
                         </a>
                     </li>
-                    
+
                     <li class="nav-header">TRANSAKSI</li>
                     <li>
                         <a href="#" class="nav-link">
