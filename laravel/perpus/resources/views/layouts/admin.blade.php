@@ -229,6 +229,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a href="{{ url('admins') }}" class="nav-link {{ request()->is('dashboard') ? 'active' : '' }}">
+                                <i class="nav-icon fas fa-book"></i>
+                                <p>
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ url('catalogs') }}" class="nav-link {{ request()->is('catalogs') ? 'active' : '' }}">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
