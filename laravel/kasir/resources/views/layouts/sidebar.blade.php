@@ -57,7 +57,7 @@
                             <i class="fa fa-random" aria-hidden="true"></i>
                             <p>Pengeluaran</p>
                         </a>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('pembelian.index') }}" class="nav-link">
                             <i class="fa fa-download" aria-hidden="true"></i>
                             <p>Pembelian</p>
                         </a>
