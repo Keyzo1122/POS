@@ -53,7 +53,7 @@
 
                     <li class="nav-header">TRANSAKSI</li>
                     <li>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('pengeluaran.index') }}" class="nav-link">
                             <i class="fa fa-random" aria-hidden="true"></i>
                             <p>Pengeluaran</p>
                         </a>
